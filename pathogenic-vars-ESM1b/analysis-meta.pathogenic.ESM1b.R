@@ -1,5 +1,4 @@
 #!/usr/bin/Rscript
-setwd("C:/CRISPR/JAK1-ICB/_meta/pre-treat/pathogenic-alts-v2")
 library(metafor)
 library(MASS)
 library(stringr)
