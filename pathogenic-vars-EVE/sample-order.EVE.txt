@@ -1,0 +1,22 @@
+Cohort	Order
+Composite_Bladder	1
+Composite_Breast	2
+Composite_CRC	3
+Composite_Endometrial	4
+Anagnostou-NC_Lung	6
+Composite_Lung	12
+Frigola_Lung	7
+Hellmann_Lung	8
+Jung_Lung	9
+Rizvi-JCO_Lung	10
+Shim_Lung	11
+Composite_Melanoma	21
+Cristescu_Melanoma	13
+Gao_Melanoma	14
+Hugo_Melanoma	15
+Liu_Melanoma	16
+Riaz_Melanoma	17
+Sade-Feldman_Melanoma	18
+Snyder-2014_Melanoma	19
+Van Allen_Melanoma	20
+Composite_RCC	5
