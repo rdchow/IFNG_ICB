@@ -4,7 +4,7 @@ library(MASS)
 library(stringr)
 library(logistf)
 
-data=read.table("FINAL-DATASET.pretreat.txt",sep="\t",header=TRUE)
+data=read.table("FINAL-DATASET.pretreat.v2.txt",sep="\t",header=TRUE)
 data = data[data$Timepoint == "pretreat",]
 
 # set up variables
@@ -14,7 +14,6 @@ data[data$BooleanResponse == "NR","BooleanResponse"] = 0
 data[data$BooleanResponse == "R","BooleanResponse"] = 1
 data$BooleanResponse = as.numeric(data$BooleanResponse)
 data$AnyAlt = factor(data$AnyAlt,levels=c("0","1")) # any alteration
-data$PredPathogenicAlt = factor(data$PredPathogenicAlt,levels=c("0","1")) # only predicted pathogenic alterations
 
 # for solo datasets, run multivariable logistic regression with TMB as covariate
 # for composite datasets, run simple logistic regression without TMB covariate (since variation in how they are determined/calculated across studies)
