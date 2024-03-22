@@ -16,4 +16,4 @@ Each folder contains:
   
 In the patient-level dataset files, the columns "AnyAlt", "PredPathogenicAlt_ESM1b", and "PredPathogenicAlt_EVE" are binary variables that indicate whether a given sample has an alteration depending on the specific criteria used.  
 
-Please contact Ryan Chow with any questions: ryan.chow@yale.edu
+Please contact Ryan Chow with any questions: chowr@pennmedicine.upenn.edu
